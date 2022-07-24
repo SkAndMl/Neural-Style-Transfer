@@ -12,3 +12,16 @@ art.
 The level upto which one wants to combine is controlled by the number of epochs and the number of steps per epoch. Given below is a combination generated
 from a *Labrador photograph* (content image) and a *Kandinsky painting* (style image). The model has been run for 10 epochs and in each epoch 100 steps have
 been executed.
+![nst_img](https://user-images.githubusercontent.com/86184014/180627707-418f8f25-2d49-4d57-96d9-ae821a288557.png)
+
+The network used here is **VGG19** and the model only combines the Kandinski painting for now. <br>
+The style layers of the VGG19 architecture have been identified as <br>
+* *Block1_conv1*
+* *Block2_conv1*
+* *Block3_conv1*
+* *Block4_conv1*
+* *Block5_conv1*
+
+There is only one content layer in this architecture and that is *Block5_conv2*. <br>
+
+More famous paintings and high resolution combinatios will be made available in the coming weeks
