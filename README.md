@@ -11,7 +11,8 @@ art.
 
 The level upto which one wants to combine is controlled by the number of epochs and the number of steps per epoch. Given below is a combination generated
 from a *Labrador photograph* (content image) and a *Kandinsky painting* (style image). The model has been run for 10 epochs and in each epoch 100 steps have
-been executed.
+been executed.<br><br>
+You can also check out my article of [Neural Style Transfer](https://medium.com/@mr.sk12112002/cnn-neural-style-transfer-88829c6e8f75)<br><br>
 ![nst_img](https://user-images.githubusercontent.com/86184014/180627707-418f8f25-2d49-4d57-96d9-ae821a288557.png)
 
 The network used here is **VGG19** and the model only combines the Kandinski painting for now. <br>
