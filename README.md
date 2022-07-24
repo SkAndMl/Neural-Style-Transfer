@@ -24,4 +24,4 @@ The style layers of the VGG19 architecture have been identified as <br>
 
 There is only one content layer in this architecture and that is *Block5_conv2*. <br>
 
-More famous paintings and high resolution combinatios will be made available in the coming weeks
+*More famous paintings and high resolution combinatios will be made available in the coming weeks*
