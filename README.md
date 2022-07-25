@@ -42,4 +42,4 @@ There is only one content layer in this architecture and that is *Block5_conv2*.
 you wont't have the need to modify them. In case, you want to look at how the mixed image looks, start with a small value for the number of epochs and the number of steps per epoch.
 6. You will find the mixed image in jpeg format in the directory in which the content_style_mixer.py script is present 
 
-*More famous paintings and high resolution combinatios will be made available in the coming weeks*
+*More famous paintings and high resolution combinations will be made available in the coming weeks*
