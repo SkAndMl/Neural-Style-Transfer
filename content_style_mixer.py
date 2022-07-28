@@ -162,9 +162,9 @@ if __name__ == "__main__":
     n_epochs = int(input("\nNumber of epochs? "))
     n_steps_per_epoch = int(input("\nNumber of steps per epoch? "))
 
-    savefig_name = input("\nMixed image's saving names? ")
+    savefig_name = input("\nMixed image's saving name? ")
 
 
     scm = StyleContentMixer(content_img, style_layers, content_layers)
     mixed_img = scm.mix(epochs=n_epochs,steps_per_epoch=n_steps_per_epoch)
-    plt.figsave(f"savefig_name.jpg")
+    plt.figsave(f"{savefig_name}.jpg")
